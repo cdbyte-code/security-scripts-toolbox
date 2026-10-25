@@ -1,0 +1,3 @@
+$ ./failed_ssh_by_ip.sh ~/auth.log.sample
+Count  Source IP
+     11 192.168.100.50

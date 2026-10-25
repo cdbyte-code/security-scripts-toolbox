@@ -1,0 +1,4 @@
+Failures  Source IP          Accounts targeted
+      11  192.168.100.50     testuser
+
+[!] 192.168.100.50 logged in as 'testuser' after 8 failures -> possible compromise, escalate

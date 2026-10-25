@@ -1,0 +1,85 @@
+2026-10-23T14:17:01.367415-07:00 ubuntu-endpoint CRON[2423]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-23T14:17:01.374714-07:00 ubuntu-endpoint CRON[2423]: pam_unix(cron:session): session closed for user root
+2026-10-23T14:17:31.124348-07:00 ubuntu-endpoint sshd[2430]: Server listening on 0.0.0.0 port 22.
+2026-10-23T14:17:31.126481-07:00 ubuntu-endpoint sshd[2430]: Server listening on :: port 22.
+2026-10-23T14:17:35.181724-07:00 ubuntu-endpoint sshd-session[2432]: Accepted password for ubuntu-user from 192.168.100.1 port 49674 ssh2
+2026-10-23T14:17:35.182148-07:00 ubuntu-endpoint sshd-session[2432]: pam_unix(sshd:session): session opened for user ubuntu-user(uid=1002) by ubuntu-user(uid=0)
+2026-10-23T14:21:13.263441-07:00 ubuntu-endpoint sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu-user(uid=1002)
+2026-10-23T14:21:13.277153-07:00 ubuntu-endpoint sudo: ubuntu-user : TTY=/dev/pts/0 ; PWD=/home/ubuntu-user/security-scripts-toolbox ; USER=root ; COMMAND=/usr/bin/grep -c Failed password /var/log/auth.log
+2026-10-23T14:21:13.277561-07:00 ubuntu-endpoint sudo: pam_unix(sudo:session): session closed for user root
+2026-10-23T14:21:20.719280-07:00 ubuntu-endpoint sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu-user(uid=1002)
+2026-10-23T14:21:20.719749-07:00 ubuntu-endpoint sudo: ubuntu-user : TTY=/dev/pts/0 ; PWD=/home/ubuntu-user/security-scripts-toolbox ; USER=root ; COMMAND=/usr/bin/grep -c Failed password /var/log/auth.log
+2026-10-23T14:21:20.729418-07:00 ubuntu-endpoint sudo: pam_unix(sudo:session): session closed for user root
+2026-10-23T14:21:34.574859-07:00 ubuntu-endpoint sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu-user(uid=1002)
+2026-10-23T14:21:34.575492-07:00 ubuntu-endpoint sudo: ubuntu-user : TTY=/dev/pts/0 ; PWD=/home/ubuntu-user/security-scripts-toolbox ; USER=root ; COMMAND=/usr/bin/grep Failed password /var/log/auth.log
+2026-10-23T14:21:34.586300-07:00 ubuntu-endpoint sudo: pam_unix(sudo:session): session closed for user root
+2026-10-23T14:37:52.438471-07:00 ubuntu-endpoint sudo: pam_unix(sudo:auth): authentication failure; logname=ubuntu-user uid=1002 euid=0 tty=/dev/pts/0 ruser=ubuntu-user rhost=  user=ubuntu-user
+2026-10-23T14:38:17.104630-07:00 ubuntu-endpoint sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu-user(uid=1002)
+2026-10-23T14:38:17.104852-07:00 ubuntu-endpoint sudo: ubuntu-user : TTY=/dev/pts/0 ; PWD=/home/ubuntu-user/security-scripts-toolbox ; USER=root ; COMMAND=/usr/bin/grep Failed password /var/log/auth.log
+2026-10-23T14:38:17.110286-07:00 ubuntu-endpoint sudo: pam_unix(sudo:session): session closed for user root
+2026-10-23T14:39:03.497218-07:00 ubuntu-endpoint sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu-user(uid=1002)
+2026-10-23T14:39:03.497863-07:00 ubuntu-endpoint sudo: ubuntu-user : TTY=/dev/pts/0 ; PWD=/home/ubuntu-user/security-scripts-toolbox ; USER=root ; COMMAND=/usr/bin/grep -c Failed password /var/log/auth.log
+2026-10-23T14:39:03.508718-07:00 ubuntu-endpoint sudo: pam_unix(sudo:session): session closed for user root
+2026-10-23T14:39:09.416555-07:00 ubuntu-endpoint sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu-user(uid=1002)
+2026-10-23T14:39:09.416763-07:00 ubuntu-endpoint sudo: ubuntu-user : TTY=/dev/pts/0 ; PWD=/home/ubuntu-user/security-scripts-toolbox ; USER=root ; COMMAND=/usr/bin/grep Failed password /var/log/auth.log
+2026-10-23T14:39:09.421994-07:00 ubuntu-endpoint sudo: pam_unix(sudo:session): session closed for user root
+2026-10-23T14:49:30.987494-07:00 ubuntu-endpoint sshd-session[2793]: Received disconnect from 192.168.100.50 port 53150:11: Bye Bye [preauth]
+2026-10-23T14:49:30.989593-07:00 ubuntu-endpoint sshd-session[2793]: Disconnected from authenticating user testuser 192.168.100.50 port 53150 [preauth]
+2026-10-23T14:49:31.479225-07:00 ubuntu-endpoint sshd-session[2796]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.100.50  user=testuser
+2026-10-23T14:49:31.496459-07:00 ubuntu-endpoint sshd-session[2799]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.100.50  user=testuser
+2026-10-23T14:49:31.497146-07:00 ubuntu-endpoint sshd-session[2795]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.100.50  user=testuser
+2026-10-23T14:49:31.500315-07:00 ubuntu-endpoint sshd-session[2797]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.100.50  user=testuser
+2026-10-23T14:49:33.270229-07:00 ubuntu-endpoint sshd-session[2796]: Failed password for testuser from 192.168.100.50 port 53172 ssh2
+2026-10-23T14:49:33.732613-07:00 ubuntu-endpoint sshd-session[2799]: Failed password for testuser from 192.168.100.50 port 53182 ssh2
+2026-10-23T14:49:33.883211-07:00 ubuntu-endpoint sshd-session[2795]: Failed password for testuser from 192.168.100.50 port 53156 ssh2
+2026-10-23T14:49:34.076966-07:00 ubuntu-endpoint sshd-session[2797]: Failed password for testuser from 192.168.100.50 port 53174 ssh2
+2026-10-23T14:49:36.832688-07:00 ubuntu-endpoint sshd-session[2799]: Failed password for testuser from 192.168.100.50 port 53182 ssh2
+2026-10-23T14:49:37.158945-07:00 ubuntu-endpoint sshd-session[2795]: Failed password for testuser from 192.168.100.50 port 53156 ssh2
+2026-10-23T14:49:37.764928-07:00 ubuntu-endpoint sshd-session[2796]: Failed password for testuser from 192.168.100.50 port 53172 ssh2
+2026-10-23T14:49:37.906282-07:00 ubuntu-endpoint sshd-session[2797]: Failed password for testuser from 192.168.100.50 port 53174 ssh2
+2026-10-23T14:49:39.097030-07:00 ubuntu-endpoint sshd-session[2797]: Accepted password for testuser from 192.168.100.50 port 53174 ssh2
+2026-10-23T14:49:39.098277-07:00 ubuntu-endpoint sshd-session[2797]: pam_unix(sshd:session): session opened for user testuser(uid=1001) by testuser(uid=0)
+2026-10-23T14:49:39.642401-07:00 ubuntu-endpoint sshd-session[2799]: Failed password for testuser from 192.168.100.50 port 53182 ssh2
+2026-10-23T14:49:40.255740-07:00 ubuntu-endpoint sshd-session[2898]: Connection closed by 192.168.100.50 port 53174
+2026-10-23T14:49:40.256791-07:00 ubuntu-endpoint sshd-session[2797]: pam_unix(sshd:session): session closed for user testuser
+2026-10-23T14:49:40.846340-07:00 ubuntu-endpoint sshd-session[2795]: Failed password for testuser from 192.168.100.50 port 53156 ssh2
+2026-10-23T14:49:40.865915-07:00 ubuntu-endpoint sshd-session[2799]: Connection closed by authenticating user testuser 192.168.100.50 port 53182 [preauth]
+2026-10-23T14:49:40.866121-07:00 ubuntu-endpoint sshd-session[2799]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.100.50  user=testuser
+2026-10-23T14:49:40.983120-07:00 ubuntu-endpoint sshd-session[2796]: Failed password for testuser from 192.168.100.50 port 53172 ssh2
+2026-10-23T14:49:42.726938-07:00 ubuntu-endpoint sshd-session[2795]: Connection closed by authenticating user testuser 192.168.100.50 port 53156 [preauth]
+2026-10-23T14:49:42.727278-07:00 ubuntu-endpoint sshd-session[2795]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.100.50  user=testuser
+2026-10-23T14:49:42.741516-07:00 ubuntu-endpoint sshd-session[2796]: Connection closed by authenticating user testuser 192.168.100.50 port 53172 [preauth]
+2026-10-23T14:49:42.741695-07:00 ubuntu-endpoint sshd-session[2796]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.100.50  user=testuser
+2026-10-23T14:49:48.440834-07:00 ubuntu-endpoint sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu-user(uid=1002)
+2026-10-23T14:49:48.447884-07:00 ubuntu-endpoint sudo: ubuntu-user : TTY=/dev/pts/0 ; PWD=/home/ubuntu-user/security-scripts-toolbox ; USER=root ; COMMAND=/usr/bin/grep -c Failed password /var/log/auth.log
+2026-10-23T14:49:48.447958-07:00 ubuntu-endpoint sudo: pam_unix(sudo:session): session closed for user root
+2026-10-23T14:49:53.256871-07:00 ubuntu-endpoint sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu-user(uid=1002)
+2026-10-23T14:49:53.257337-07:00 ubuntu-endpoint sudo: ubuntu-user : TTY=/dev/pts/0 ; PWD=/home/ubuntu-user/security-scripts-toolbox ; USER=root ; COMMAND=/usr/bin/grep Failed password /var/log/auth.log
+2026-10-23T14:49:53.269317-07:00 ubuntu-endpoint sudo: pam_unix(sudo:session): session closed for user root
+2026-10-23T15:00:14.295963-07:00 ubuntu-endpoint sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu-user(uid=1002)
+2026-10-23T15:00:14.302706-07:00 ubuntu-endpoint sudo: ubuntu-user : TTY=/dev/pts/0 ; PWD=/home/ubuntu-user/security-scripts-toolbox ; USER=root ; COMMAND=/usr/bin/grep -E sshd|sudo|CRON /var/log/auth.log
+2026-10-23T15:00:14.303002-07:00 ubuntu-endpoint sudo: pam_unix(sudo:session): session closed for user root
+2026-10-23T15:17:01.452936-07:00 ubuntu-endpoint CRON[3116]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-23T15:17:01.466491-07:00 ubuntu-endpoint CRON[3116]: pam_unix(cron:session): session closed for user root
+2026-10-23T15:22:22.637084-07:00 ubuntu-endpoint sshd-session[2536]: Received disconnect from 192.168.100.1 port 49674:11: disconnected by user
+2026-10-23T15:22:22.645154-07:00 ubuntu-endpoint sshd-session[2536]: Disconnected from user ubuntu-user 192.168.100.1 port 49674
+2026-10-23T15:22:22.646099-07:00 ubuntu-endpoint sshd-session[2432]: pam_unix(sshd:session): session closed for user ubuntu-user
+2026-10-23T15:22:22.654312-07:00 ubuntu-endpoint sshd-session[2432]: syslogin_perform_logout: logout() returned an error
+2026-10-24T20:36:17.800456-07:00 ubuntu-endpoint sshd[1651]: Server listening on 0.0.0.0 port 22.
+2026-10-24T20:36:17.800758-07:00 ubuntu-endpoint sshd[1651]: Server listening on :: port 22.
+2026-10-24T20:36:21.958106-07:00 ubuntu-endpoint sshd-session[1654]: Accepted password for ubuntu-user from 192.168.100.1 port 62904 ssh2
+2026-10-24T20:36:21.959709-07:00 ubuntu-endpoint sshd-session[1654]: pam_unix(sshd:session): session opened for user ubuntu-user(uid=1002) by ubuntu-user(uid=0)
+2026-10-24T20:36:22.410090-07:00 ubuntu-endpoint sshd-session[1715]: Received disconnect from 192.168.100.1 port 62904:11: disconnected by user
+2026-10-24T20:36:22.410551-07:00 ubuntu-endpoint sshd-session[1715]: Disconnected from user ubuntu-user 192.168.100.1 port 62904
+2026-10-24T20:36:22.411084-07:00 ubuntu-endpoint sshd-session[1654]: pam_unix(sshd:session): session closed for user ubuntu-user
+2026-10-24T20:39:05.002840-07:00 ubuntu-endpoint sshd-session[1840]: Accepted password for ubuntu-user from 192.168.100.1 port 62906 ssh2
+2026-10-24T20:39:05.005305-07:00 ubuntu-endpoint sshd-session[1840]: pam_unix(sshd:session): session opened for user ubuntu-user(uid=1002) by ubuntu-user(uid=0)
+2026-10-24T20:40:09.535781-07:00 ubuntu-endpoint sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu-user(uid=1002)
+2026-10-24T20:40:09.537907-07:00 ubuntu-endpoint sudo: ubuntu-user : TTY=/dev/pts/0 ; PWD=/home/ubuntu-user ; USER=root ; COMMAND=/usr/bin/grep -E sshd|sudo|CRON /var/log/auth.log
+2026-10-24T20:40:09.556683-07:00 ubuntu-endpoint sudo: pam_unix(sudo:session): session closed for user root
+2026-10-24T20:40:29.727273-07:00 ubuntu-endpoint sshd-session[1960]: Accepted password for ubuntu-user from 192.168.100.1 port 58752 ssh2
+2026-10-24T20:40:29.730764-07:00 ubuntu-endpoint sshd-session[1960]: pam_unix(sshd:session): session opened for user ubuntu-user(uid=1002) by ubuntu-user(uid=0)
+2026-10-24T20:40:30.147761-07:00 ubuntu-endpoint sshd-session[2021]: Received disconnect from 192.168.100.1 port 58752:11: disconnected by user
+2026-10-24T20:40:30.147961-07:00 ubuntu-endpoint sshd-session[2021]: Disconnected from user ubuntu-user 192.168.100.1 port 58752
+2026-10-24T20:40:30.148977-07:00 ubuntu-endpoint sshd-session[1960]: pam_unix(sshd:session): session closed for user ubuntu-user
+2026-10-24T20:49:07.683872-07:00 ubuntu-endpoint sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu-user(uid=1002)
